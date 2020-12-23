@@ -1,0 +1,42 @@
+/*Таймер*/
+.countbox:before {
+    content: 'До конца акции осталось:';
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color:#222;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.countbox {
+    height: 67px;
+    width: 100%;
+    padding-left: 30px;
+    margin: 0 auto;
+    background: url("../img/timer.png") no-repeat 22px 30px;
+}
+.countbox > div:last-child {
+    margin: 0;    
+}
+.countbox > div:first-child {
+    margin-left: 30px;    
+}
+.countbox .countbox-num {
+    float: left;
+    width: 47px;
+    height: 33px;
+    margin-right: 53px;
+    position: relative;
+}
+.countbox-mins {
+}
+.countbox-hours, .countbox-mins, .countbox-secs {
+    color: #333333;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 33px;
+}
+.countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+    display: none;
+}
